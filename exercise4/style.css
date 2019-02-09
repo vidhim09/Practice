@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+#cont{
+    padding: 0 10%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #55acad;
+    border-bottom: 1px #f7f7f7 solid;
+    padding: 10px 0 10px 0;
+}
+nav .item{
+    display: flex;
+}
+nav #logo{
+    font-size: 20px;
+}
+nav .item .link{
+    font-size: 12px;
+    margin: 5px;
+    padding: auto;
+    font-weight: 700;
+}
+
+
+#form{
+    margin: 3% 35%;
+    border: 1px solid #bcc3ca;
+    border-radius: 3px;
+}
+
+#form form #head{
+    margin:0;
+    padding: 10px;
+    background-color: #bcc3ca;
+    border: 1px solid #bcc3ca;
+    color: #fff;
+    border-radius: 3px 3px 0px 0;
+    font-weight: 700;
+}
+input{
+    margin:0;
+    padding:0;
+}
+#form form #body{
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+#form form #body .item{
+    margin: 5px;
+}
+
+#form form  #body label{
+    width: 100%;
+    margin: 0px;
+    padding: 3px;
+}#form form #body #radio{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+#form form #body .full{
+    margin: 0px;
+    padding: 3px;
+    
+}
+#form form #body .full .fullf{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#form form #body .full .select{
+    padding: 4px;
+    background-color: #53bc9c;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px #53bc9c solid;
+}
+
+#form form #body .full .choose{
+    padding: 0px;
+    border-radius: 3px;
+    border: 1px solid #53bc9c;
+}
+
+
+#form form #body .full .input{
+    padding: 4px 0;
+    border: 1px solid #bcc3ca; 
+    border-radius: 3px;
+}
+
+#form form #foot{
+    border-top: 1px solid #bcc3ca;
+    padding: 10px 20px;
+    display: flex;
+    background-color: #edeff1;
+    flex-direction: row-reverse;
+}
+#form form #foot button{
+    border:none;
+    padding: 5px 10px;
+    background-color: #53bc9c;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#ver{
+    width: 30%;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cont">
+        <nav>
+            <div class="item" id="logo">
+                TO THE NEW
+            </div>
+            <div class="item">
+                <div class="link">Home</div>
+                <div class="link">Quick Help</div>
+            </div>
+        </nav>
+        <div id="form">
+            <form action="/home.html">
+                <div id="head">
+                    Bug Report
+                </div>
+                <div id="body">
+                    <div class="item">
+                        <div>
+                            <label for="title">Title:*</label>
+                        </div>
+                        <div class="full">
+                            <input type="text" name="title" class="fullf input" required>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <label for="desc">Description:*</label>
+                        </div>
+                        <div class="full"> 
+                            <textarea name="desc" id="" rows="4" class="fullf input"></textarea>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div>
+                            <label for="os">Operating system:</label>
+                        </div>
+                        <div class="full"> 
+                            <select name="os" id="" class="fullf select" >
+                                <option value="windows">Windows XP</option>
+                                <option value="Mac">Mac</option>
+                                <option value="Ubuntu">Ubuntu</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="item">
+                        <div>
+                            <label for="product">Product:*</label>
+                        </div>
+                        <div class="full" >
+                            <select name="os" id="" class="fullf select" required>
+                                <option value="">Formoid</option>
+                                <option value="">Tablet</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="item">
+                        <div>
+                                <label for="ver">Version:*</label>
+                        </div>
+                        <div class="full">
+                                <input type="text" name="ver" class="input" id="ver"> 
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="item">
+                        <div>
+                                <label for="lic">License:</label> 
+                        </div>
+                        
+                        <div class="full" id="radio">
+                            <span>
+                                    <input type="radio" name="lic" value="free" placeholder="Free">    Free
+                            </span>
+                            <span>
+                                    <input type="radio" name="lic" value="bus">   Business
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                                <label for="sev">Severity:</label>
+                        </div>
+                        <div class="full">
+                                <select name="sev" id="" class="fullf select" >
+                                        <option value="c">Critical</option>
+                                        <option value="m">Moderate</option>
+                                        <option value="l">Low</option>
+                                </select>                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="item">
+                        <div>
+                            <label for="at">Attachments:</label>
+                        </div>
+                        <div class="full">
+                            <input type="file" name="at" class="fullf choose" >   
+                        </div>
+                    </div>
+                </div>
+                <div id="foot">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
