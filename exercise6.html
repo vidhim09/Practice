@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3>Exercise 6</h3>
+    <div class="ques">
+            <div class="q">
+                        Question 1. Console "Hello Word" in document.ready function
+            </div>
+           <div class="a">
+                        Answer: In console
+           </div>
+           
+    </div>
+    <div class="ques">
+            <div class="q">
+                        Question 2. Select a ID name "#test" and add class "load" when DOM is loaded
+            </div>
+           <div class="a">
+                        Answer: <span id="test">Refer Developer tools and html</span>
+           </div>
+    </div>
+    <div class="ques">
+            <div class="q">
+                        Question 3. Change the color of element which class name end with "-new"
+            </div>   
+           <div class="a">
+                        Answer: 
+                        <div class="a-new">Class a-new (Color Changed)</div>
+                        <div class="b-new">Class b-new (Color Changed)</div>
+                        <div class="cnew">Class cnew (No Change)</div>
+           </div>
+    </div>
+    <div class="ques">
+            <div class="q">
+                Question 4. Disable submit button using jquery attr method
+            </div>
+            <div class="a">
+                    Answer: 
+                    <input type="submit" name="" id="">
+            </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 5. Change the font size of ".target" which has parent element with id name "#main"
+        </div>
+        <div class="a" id="main">
+            <span>
+                    Answer: font size is changed.
+            </span>
+            <div class="target">
+                Font Size Changed
+            </div>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 6. After page load change the HTML of div element with "p" element
+        </div>
+        <div class="a">
+                Answer: In console <button id="a6">Click</button>
+                <div class="a6">This is a div.</div>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 7. Bind a click function to an "click" element and append next "click" next to it.
+        </div>
+        <div class="a">
+                Answer: <span id="a7">Click!</span>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 8. Click event not working on element which added dynamicly or via script, make it work using .on method
+        </div>
+        <div class="a">
+                Answer: <span id="a8">Click Event 1 Not Working</span>
+                <button id="btn81">Click 1</button>
+                <button id="btn82">Click 2</button>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 9. Get dropdown selected value on onchange event and append in div container
+        </div>
+        <div class="a">
+            Answer: 
+            <select id="select">
+                <option value="Option1">Option1</option>
+                <option value="Option2">Option2</option>
+                <option value="Option3">Option3</option>
+            </select>
+            <div id="a9">Selected value is: </div>
+        </div>
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 10. Create a dropdown menu using hover method in jquery
+        </div>
+        <div class="a">
+                Answer: 
+                <div id='a10'>
+                    DropDown
+                </div>
+                <div id='dd' class='dd'>
+                    <div>Option 1</div> 
+                    <div>Option 2 </div> 
+                    <div>Option 3 </div> 
+                </div>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 11. On clicking on <a href="https://google.com" id='rm'>"google"</a>  tag. It is taking us to google home page. Stop it from happening.
+        </div>
+        <div class="a">
+                Answer:  <button id="a11">Remove Link</button>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 12. We have bind a click funtion to parent div but we want stop it from performing when user clicks on its child li
+        </div>
+        <div class="a">
+                Answer: 
+                <div class="parent">
+                    Parent <span>Clickable</span>
+                    <div class="child">
+                        Child 1 (Click to disable parent)
+                    </div>
+                    <div>
+                        Child 2
+                    </div>
+                </div>
+
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 13. Get the max height of elements using jquery each method
+        </div>
+        <div class="a">
+                <div>
+                        <button id="a13">Find Max Height</button>
+                </div>
+                Answer: Max Height from: <span id="ans" ></span>
+                
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 14. Change color of every cell which has number larger than 10.
+        </div>
+        <div class="a">
+                Answer: <button id="a14">Change Color</button>
+                <table>
+                    <tr>
+                        <td class='a14'>1</td> <td class='a14'>25</td> <td class='a14'>3</td> <td class='a14'>10</td> <td>7</td>
+                    </tr>
+                    <tr>
+                        <td class='a14'>7</td> <td class='a14'>59</td> <td class='a14'>8</td> <td class='a14'>0</td> <td class='a14'>43</td>
+                    </tr>
+                    <tr>
+                        <td class='a14'>2</td> <td class='a14'>14</td> <td class='a14'>50</td> <td>80</td> <td class='a14'>5</td>
+                    </tr>
+                    <tr>
+                        <td class='a14'>4</td> <td class='a14'>6</td> <td class='a14'>8</td> <td class='a14'>9</td> <td class='a14'>1</td>
+                    </tr>
+                    <tr>
+                        <td class='a14'>65</td> <td class='a14'>8</td> <td class='a14'>45</td> <td class='a14'>4</td> <td class='a14'>25</td>
+                    </tr>
+                </table>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 15. Retrive the data from server using ajax get call
+        </div>
+        <div class="a">
+            Answer: <button id="a15">Retrive data</button>
+            <div id="data"></div>
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 16. Add cross button on row and bind click function which make a delete request to server, after success event remove the row from dom
+        </div>
+        <div class="a">
+            Answer: 
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            User Id
+                        </td>
+                        <td>
+                            Id
+                        </td>
+                        <td>
+                            Title
+                        </td>
+                        <td>
+                            Body
+                        </td>
+                        <td>
+                            Delete
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="a16">
+
+                </tbody>
+            </table>
+
+        </div> 
+    </div>
+    <div class="ques">
+        <div class="q">
+            Question 17. Create a image array and in div create a slide show to animate images of delay of 500ms.
+        </div>
+        <div class="a">
+                Answer: 
+            <div class="images">
+                        <img src="https://images.unsplash.com/photo-1549778399-f94fd24d4697?ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80" alt="" class="act" id="p1">
+            
+                        <img src="https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" id="p2">
+            
+                        <img src="https://images.unsplash.com/photo-1548222606-6c4f581fd09d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1374&q=80" alt="" id="p3">
+              
+                        <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" id="p4">
+                
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
